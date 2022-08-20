@@ -120,7 +120,7 @@ png("plot4.png", width=480, height=480)
 
 par(mfrow=c(2,2))
 
-# Plot 1
+# Plot 1 
 plot(powerDT[, dateTime], powerDT[, Global_active_power], type="l", xlab="", ylab="Global Active Power")
 
 # Plot 2

@@ -34,7 +34,8 @@ hist(powerDT[, Global_active_power], main="Global Active Power",
 
 dev.off()
 ```
-![](https://github.com/mGalarnyk/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot1.png)
+![plot1](https://user-images.githubusercontent.com/76505459/185751714-e27d8a69-b758-4b67-a9eb-2d739e2564dd.png)
+
 ```R
 library("data.table")
 
@@ -63,7 +64,8 @@ plot(x = powerDT[, dateTime]
 
 dev.off()
 ```
-![](https://github.com/mGalarnyk/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot2.png)
+![plot2](https://user-images.githubusercontent.com/76505459/185751696-59971b81-e740-4d0f-95b9-571a81e7a3de.png)
+
 ```R
 library("data.table")
 
@@ -96,7 +98,8 @@ legend("topright"
 
 dev.off()
 ```
-![](https://github.com/mGalarnyk/datasciencecoursera/blob/master/4_Exploratory_Data_Analysis/project1/plot3.png)
+![plot3](https://user-images.githubusercontent.com/76505459/185751681-1fa66561-3631-42c2-bcdd-7c2c8e28d2a2.png)
+
 ```R
 library("data.table")
 
@@ -141,4 +144,5 @@ plot(powerDT[, dateTime], powerDT[,Global_reactive_power], type="l", xlab="datet
 
 dev.off()
 ```
-![]
+![plot4](https://user-images.githubusercontent.com/76505459/185751661-f2cbc4b6-a227-4df3-ac64-9aca1b0ccf94.png)
+
